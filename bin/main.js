@@ -1,8 +1,8 @@
 import process from "node:process";
 
-const CHANGE_FILES =  process.env['ALL_CHANGED_FILES'];
+const ALL_CHANGED_FILES =  process.env['ALL_CHANGED_FILES']?.split('\n') || [];
 
 
 console.log('以下是debug内容');
-console.log(CHANGE_FILES);
-console.log(typeof CHANGE_FILES);
+console.log(ALL_CHANGED_FILES);
+console.log(typeof ALL_CHANGED_FILES);
