@@ -1,6 +1,6 @@
 import process from "node:process";
 
-const CHANGE_FILES =  process.env('ALL_CHANGED_FILES');
+const CHANGE_FILES =  process.env['ALL_CHANGED_FILES'];
 
 
 console.log('以下是debug内容');
