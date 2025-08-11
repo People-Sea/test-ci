@@ -15,7 +15,7 @@ jobs:
         with:
           safe_output: false
           # Avoid using single or double quotes for multiline patterns
-          separator: '\n'
+          separator: "\n"
           files: |
             docs/zh/**.md
       - name: List All Changed Markdown Files
