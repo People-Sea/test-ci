@@ -1,6 +1,6 @@
 import process from "node:process";
 
-const ALL_CHANGED_FILES =  process.env['ALL_CHANGED_FILES']?.split('\n') || [];
+const ALL_CHANGED_FILES =  process.env['ALL_CHANGED_FILES']?.split("\n") || [];
 
 
 console.log('以下是debug内容');
