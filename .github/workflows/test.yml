@@ -13,6 +13,7 @@ jobs:
         id: changed-markdown-files
         uses: tj-actions/changed-files@v45
         with:
+          safe_output: false
           # Avoid using single or double quotes for multiline patterns
           separator: '\n'
           files: |
